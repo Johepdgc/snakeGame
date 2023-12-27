@@ -1,0 +1,44 @@
+#board {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+}
+
+#start, .boardInfo {
+    font-size: 30px;
+}
+
+#gameOver {
+    display: none;
+}
+
+.boardInfo {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+#start {
+    background-color: red;
+    border-radius: 15%;
+    color: white;
+}
+
+#scoreBoard {
+    display: inline-flex;
+}
+
+.square {
+    aspect-ratio: 1;
+}
+
+.empySquare {
+    background-color: blue;
+}
+
+.snakeSquare {
+    background-color: green;
+}
+
+.foodSquare {
+    background-color: violet;
+}
